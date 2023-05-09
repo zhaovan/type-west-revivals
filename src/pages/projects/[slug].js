@@ -43,7 +43,7 @@ export default function ProjectTemplate() {
         <div className="w-1/2">
           <div className="fixed">
             <h1 className="font-bold text-[32px]">
-              {slug.slice(0, 1).toUpperCase() + slug.slice(1)}
+              {slug && slug.slice(0, 1).toUpperCase() + slug.slice(1)}
             </h1>
             <p className="whitespace-pre fixed">{text}</p>
           </div>
